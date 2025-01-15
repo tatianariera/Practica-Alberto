@@ -1,0 +1,105 @@
+/* General Font Styles */
+.ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 
+    'FILL' 0, 
+    'wght' 400, 
+    'GRAD' 0, 
+    'opsz' 24;
+}
+
+/* Layout and Main Container */
+.principal {
+  width: 90%;
+  max-width: 1200px; /* Limita el ancho máximo para pantallas grandes */
+  margin: 20px auto; /* Añade un margen superior */
+  padding: 20px; /* Añade espacio interno */
+  box-sizing: border-box;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(50, 50, 50);
+  margin-bottom: 20px;
+}
+
+/* Hotels Section */
+.hotels {
+  display: flex; /* Cambiar a flexbox para mejor alineación */
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten automáticamente */
+  gap: 20px; /* Espaciado entre tarjetas */
+  justify-content: center;
+}
+
+/* Individual Hotel Card */
+.hotel {
+  background-color: rgba(253, 201, 210, 0.3);
+  border: 1px solid rgba(245, 156, 171, 0.5); /* Añade un borde sutil */
+  border-radius: 8px; /* Esquinas redondeadas */
+  width: 300px; /* Define un ancho fijo para las tarjetas */
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Efectos de hover */
+}
+
+.hotel:hover {
+  transform: translateY(-5px); /* Eleva la tarjeta al pasar el ratón */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hotel Name */
+.hotelName {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Hotel Location */
+.hotelLocation {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(245, 156, 171);
+  margin-bottom: 10px;
+}
+
+/* Hotel Price */
+.hotelPrice {
+  color: rgb(228, 93, 93);
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Hotel Image */
+.hotelImg {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 5px; /* Redondea las esquinas */
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hotels {
+    flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+    align-items: center;
+  }
+
+  .hotel {
+    width: 90%; /* Aumenta el ancho para dispositivos pequeños */
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}

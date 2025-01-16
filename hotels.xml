@@ -1,10 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <hotels>
     <hotel>
-        <hotelName>APA Hotel</hotelName>
-        <hotelLocation>Kabukicho, Tokyo, Japan</hotelLocation>
-        <hotelAmenities>Wi-Fi, Onsen</hotelAmenities>
+        <hotelName>Grand Hyatt Tokyo</hotelName>
+        <hotelLocation>Roppongi, Tokyo, Japan</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
         <hotelRating>5</hotelRating>
-        <hotelPrice>30€</hotelPrice>
-        <hotelImg>imgs/apahotel.jpg</hotelImg>
+        <hotelPrice>250€</hotelPrice>
+        <hotelImg>imgs/grandhyatt.jpg</hotelImg>
+        <hotelUrl>https://www.tokyo.grand.hyatt.com</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>The Ritz-Carlton, Tokyo</hotelName>
+        <hotelLocation>Roppongi, Tokyo, Japan</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>300€</hotelPrice>
+        <hotelImg>imgs/ritz.jpg</hotelImg>
+        <hotelUrl>https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Four Seasons Hotel Tokyo at Marunouchi</hotelName>
+        <hotelLocation>Marunouchi, Tokyo, Japan</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>350€</hotelPrice>
+        <hotelImg>imgs/fourseasons.jpg</hotelImg>
+        <hotelUrl>https://www.fourseasons.com/tokyo/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>The Prince Gallery Tokyo Kioicho</hotelName>
+        <hotelLocation>Kioicho, Tokyo, Japan</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>200€</hotelPrice>
+        <hotelImg>imgs/theprince.jpg</hotelImg>
+        <hotelUrl>https://www.princehotels.com/kioicho/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Hotel Gajoen Tokyo</hotelName>
+        <hotelLocation>Shibuya, Tokyo, Japan</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>4</hotelRating>
+        <hotelPrice>150€</hotelPrice>
+        <hotelImg>imgs/gajoen.jpg</hotelImg>
+        <hotelUrl>https://en.hotelgajoen-tokyo.com/</hotelUrl>
     </hotel>
 </hotels>

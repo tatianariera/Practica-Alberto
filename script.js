@@ -1,28 +1,22 @@
-// Carga y procesa el archivo XML
-fetch('hotels.xml')
+fetch("hotels.xml")
   .then((response) => response.text())
   .then((xmlText) => {
-    // Parsear el texto XML
     const parser = new DOMParser();
-    const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+    const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+    const hotels = xmlDoc.getElementsByTagName("hotel");
+    const container = document.getElementById("hotels-container");
 
-    // Obtener todos los hoteles del XML
-    const hotels = xmlDoc.getElementsByTagName('hotel');
-    const container = document.getElementById('hotels-container');
-
-    // Iterar sobre los hoteles y agregar al HTML
     Array.from(hotels).forEach((hotel) => {
-      const hotelName = hotel.getElementsByTagName('hotelName')[0].textContent;
-      const hotelLocation = hotel.getElementsByTagName('hotelLocation')[0].textContent;
+      const hotelName = hotel.getElementsByTagName("hotelName")[0].textContent;
+      const hotelLocation = hotel.getElementsByTagName("hotelLocation")[0].textContent;
+      const hotelAmenities = hotel.getElementsByTagName("hotelAmenities")[0].textContent;
+      const hotelRating = hotel.getElementsByTagName("hotelRating")[0].textContent;
+      const hotelPrice = hotel.getElementsByTagName("hotelPrice")[0].textContent;
+      const hotelImg = hotel.getElementsByTagName("hotelImg")[0].textContent;
+      const hotelUrl = hotel.getElementsByTagName("hotelUrl")[0].textContent; // Nueva línea
 
-      const hotelAmenities = hotel.getElementsByTagName('hotelAmenities')[0].textContent;
-      const hotelRating = hotel.getElementsByTagName('hotelRating')[0].textContent;
-      const hotelPrice = hotel.getElementsByTagName('hotelPrice')[0].textContent;
-      const hotelImg = hotel.getElementsByTagName('hotelImg')[0].textContent;
-
-      // Crear el elemento HTML para el hotel
-      const hotelDiv = document.createElement('div');
-      hotelDiv.classList.add('hotel');
+      const hotelDiv = document.createElement("div");
+      hotelDiv.classList.add("hotel");
       hotelDiv.innerHTML = `
         <h2 class="hotelName">${hotelName}</h2>
         <p class="hotelLocation">${hotelLocation}</p>
@@ -32,8 +26,12 @@ fetch('hotels.xml')
         <img class="hotelImg" src="${hotelImg}" alt="Image of ${hotelName}">
       `;
 
-      // Añadir el hotel al contenedor
+      // Añadir evento de clic para redirigir al sitio web del hotel
+      hotelDiv.addEventListener("click", () => {
+        window.open(hotelUrl, "_blank");
+      });
+
       container.appendChild(hotelDiv);
     });
   })
-  .catch((error) => console.error('Error loading XML:', error));
+  .catch((error) => console.error("Error loading XML:", error));

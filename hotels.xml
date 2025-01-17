@@ -5,7 +5,7 @@
         <hotelLocation>Roppongi, Tokyo, Japan</hotelLocation>
         <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
         <hotelRating>5</hotelRating>
-        <hotelPrice>250€</hotelPrice>
+        <hotelPrice>250</hotelPrice>
         <hotelImg>imgs/grandhyatt.jpg</hotelImg>
         <hotelUrl>https://www.tokyo.grand.hyatt.com</hotelUrl>
     </hotel>
@@ -14,7 +14,7 @@
         <hotelLocation>Roppongi, Tokyo, Japan</hotelLocation>
         <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
         <hotelRating>5</hotelRating>
-        <hotelPrice>300€</hotelPrice>
+        <hotelPrice>300</hotelPrice>
         <hotelImg>imgs/ritz.jpg</hotelImg>
         <hotelUrl>https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/</hotelUrl>
     </hotel>
@@ -23,7 +23,7 @@
         <hotelLocation>Marunouchi, Tokyo, Japan</hotelLocation>
         <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
         <hotelRating>5</hotelRating>
-        <hotelPrice>350€</hotelPrice>
+        <hotelPrice>350</hotelPrice>
         <hotelImg>imgs/fourseasons.jpg</hotelImg>
         <hotelUrl>https://www.fourseasons.com/tokyo/</hotelUrl>
     </hotel>
@@ -32,7 +32,7 @@
         <hotelLocation>Kioicho, Tokyo, Japan</hotelLocation>
         <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
         <hotelRating>5</hotelRating>
-        <hotelPrice>200€</hotelPrice>
+        <hotelPrice>200</hotelPrice>
         <hotelImg>imgs/theprince.jpg</hotelImg>
         <hotelUrl>https://www.princehotels.com/kioicho/</hotelUrl>
     </hotel>
@@ -41,8 +41,233 @@
         <hotelLocation>Shibuya, Tokyo, Japan</hotelLocation>
         <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
         <hotelRating>4</hotelRating>
-        <hotelPrice>150€</hotelPrice>
+        <hotelPrice>150</hotelPrice>
         <hotelImg>imgs/gajoen.jpg</hotelImg>
         <hotelUrl>https://en.hotelgajoen-tokyo.com/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Mandarin Oriental Kuala Lumpur</hotelName>
+        <hotelLocation>Kuala Lumpur, Malaysia</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>180</hotelPrice>
+        <hotelImg>imgs/mandarin.jpg</hotelImg>
+        <hotelUrl>https://www.mandarinoriental.com/kuala-lumpur</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Shangri-La Hotel Kuala Lumpur</hotelName>
+        <hotelLocation>Kuala Lumpur, Malaysia</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>150</hotelPrice>
+        <hotelImg>imgs/shangri.jpg</hotelImg>
+        <hotelUrl>https://www.shangri-la.com/kuala-lumpur/shangrila/</hotelUrl>
+    </hotel>
+     <hotel>
+        <hotelName>Traders Hotel Kuala Lumpur</hotelName>
+        <hotelLocation>Kuala Lumpur, Malaysia</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Rooftop Bar</hotelAmenities>
+        <hotelRating>4</hotelRating>
+        <hotelPrice>120</hotelPrice>
+        <hotelImg>imgs/traders.jpg</hotelImg>
+        <hotelUrl>https://www.tradershotels.com/kuala-lumpur/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Grand Millennium Kuala Lumpur</hotelName>
+        <hotelLocation>Kuala Lumpur, Malaysia</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Restaurant</hotelAmenities>
+        <hotelRating>4</hotelRating>
+        <hotelPrice>140</hotelPrice>
+        <hotelImg>imgs/grand.jpg</hotelImg>
+        <hotelUrl>https://www.millenniumhotels.com/en/kuala-lumpur/grand-millennium/</hotelUrl>
+    </hotel>
+     <hotel>
+        <hotelName>The Westin Kuala Lumpur</hotelName>
+        <hotelLocation>Kuala Lumpur, Malaysia</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>190</hotelPrice>
+        <hotelImg>imgs/westin.jpg</hotelImg>
+        <hotelUrl>https://www.marriott.com/en-us/hotels/kulwi-the-westin-kuala-lumpur/overview/</hotelUrl>
+    </hotel>
+      <hotel>
+        <hotelName>Marina Bay Sands</hotelName>
+        <hotelLocation>Marina Bay, Singapore</hotelLocation>
+        <hotelAmenities>Wi-Fi, Infinity Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>400</hotelPrice>
+        <hotelImg>imgs/marina.jpg</hotelImg>
+        <hotelUrl>https://www.marinabaysands.com/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Raffles Singapore</hotelName>
+        <hotelLocation>City Centre, Singapore</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa, Bar</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>500</hotelPrice>
+        <hotelImg>imgs/raffles.jpg</hotelImg>
+        <hotelUrl>https://www.raffles.com/singapore/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Fullerton Bay Hotel Singapore</hotelName>
+        <hotelLocation>Marina Bay, Singapore</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Rooftop Bar</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>380</hotelPrice>
+        <hotelImg>imgs/fullerton.jpg</hotelImg>
+        <hotelUrl>https://www.thefullertonhotels.com/fullerton-bay-hotel</hotelUrl>
+    </hotel> <hotel>
+        <hotelName>Pan Pacific Singapore</hotelName>
+        <hotelLocation>Marina Bay, Singapore</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>350</hotelPrice>
+        <hotelImg>imgs/pan.jpg</hotelImg>
+        <hotelUrl>https://www.panpacific.com/en/hotels-and-resorts/pp-marina.html</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Mandarin Oriental Singapore</hotelName>
+        <hotelLocation>Marina Bay, Singapore</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa, Restaurant</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>300</hotelPrice>
+        <hotelImg>imgs/mandarin-singapore.jpg</hotelImg>
+        <hotelUrl>https://www.mandarinoriental.com/singapore</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Mandarin Oriental Bangkok</hotelName>
+        <hotelLocation>Bangkok, Thailand</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>320</hotelPrice>
+        <hotelImg>imgs/mandarin-bangkok.jpg</hotelImg>
+        <hotelUrl>https://www.mandarinoriental.com/bangkok</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Banyan Tree Bangkok</hotelName>
+        <hotelLocation>Bangkok, Thailand</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Rooftop Bar</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>250</hotelPrice>
+        <hotelImg>imgs/banyan.jpg</hotelImg>
+        <hotelUrl>https://www.banyantree.com/thailand/bangkok</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Siam Kempinski Hotel Bangkok</hotelName>
+        <hotelLocation>Bangkok, Thailand</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>280</hotelPrice>
+        <hotelImg>imgs/siam.jpg</hotelImg>
+        <hotelUrl>https://www.kempinski.com/en/bangkok/siam-hotel</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Shangri-La Hotel Bangkok</hotelName>
+        <hotelLocation>Bangkok, Thailand</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>300</hotelPrice>
+        <hotelImg>imgs/shangri-bangkok.jpg</hotelImg>
+        <hotelUrl>https://www.shangri-la.com/bangkok/shangrila/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Dusit Thani Laguna Phuket</hotelName>
+        <hotelLocation>Phuket, Thailand</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Beach Access</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>200</hotelPrice>
+        <hotelImg>imgs/dusit.jpg</hotelImg>
+        <hotelUrl>https://www.dusit.com/dusitthani/laguna-phuket/</hotelUrl>
+    </hotel>
+
+    <hotel>
+        <hotelName>Belmond La Residencia</hotelName>
+        <hotelLocation>Deià, Mallorca, Spain</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Spa, Garden</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>450</hotelPrice>
+        <hotelImg>imgs/residencia.jpg</hotelImg>
+        <hotelUrl>https://www.belmond.com/hotels/europe/spain/mallorca/belmond-la-residencia/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Castillo Hotel Son Vida</hotelName>
+        <hotelLocation>Palma, Mallorca, Spain</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>300</hotelPrice>
+        <hotelImg>imgs/son-vida.jpg</hotelImg>
+        <hotelUrl>https://www.sonvidahotel.com/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Cap Rocat</hotelName>
+        <hotelLocation>Cala Blava, Mallorca, Spain</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Beach Access, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>600</hotelPrice>
+        <hotelImg>imgs/cap-rocat.jpg</hotelImg>
+        <hotelUrl>https://www.caprocat.com/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Hotel Can Simoneta</hotelName>
+        <hotelLocation>Canyamel, Mallorca, Spain</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Sea View, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>400</hotelPrice>
+        <hotelImg>imgs/can-simoneta.jpg</hotelImg>
+        <hotelUrl>https://www.cansimoneta.com/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Park Hyatt Mallorca</hotelName>
+        <hotelLocation>Canyamel, Mallorca, Spain</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>320</hotelPrice>
+        <hotelImg>imgs/park-hyatt.jpg</hotelImg>
+        <hotelUrl>https://www.hyatt.com/en-US/hotel/spain/park-hyatt-mallorca/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>The Ritz-Carlton Shanghai</hotelName>
+        <hotelLocation>Pudong, Shanghai, China</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Rooftop Bar</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>380</hotelPrice>
+        <hotelImg>imgs/ritz-shanghai.jpg</hotelImg>
+        <hotelUrl>https://www.ritzcarlton.com/shanghai</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Waldorf Astoria Beijing</hotelName>
+        <hotelLocation>Beijing, China</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>450</hotelPrice>
+        <hotelImg>imgs/waldorf-beijing.jpg</hotelImg>
+        <hotelUrl>https://www.waldorfastoria.com/beijing</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Park Hyatt Beijing</hotelName>
+        <hotelLocation>Chaoyang, Beijing, China</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>400</hotelPrice>
+        <hotelImg>imgs/park-hyatt-beijing.jpg</hotelImg>
+        <hotelUrl>https://www.hyatt.com/en-US/hotel/china/park-hyatt-beijing/</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Mandarin Oriental Guangzhou</hotelName>
+        <hotelLocation>Guangzhou, China</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>350</hotelPrice>
+        <hotelImg>imgs/mandarin-guangzhou.jpg</hotelImg>
+        <hotelUrl>https://www.mandarinoriental.com/guangzhou</hotelUrl>
+    </hotel>
+    <hotel>
+        <hotelName>Four Seasons Hotel Shenzhen</hotelName>
+        <hotelLocation>Shenzhen, China</hotelLocation>
+        <hotelAmenities>Wi-Fi, Pool, Gym, Spa</hotelAmenities>
+        <hotelRating>5</hotelRating>
+        <hotelPrice>320</hotelPrice>
+        <hotelImg>imgs/four-seasons-shenzhen.jpg</hotelImg>
+        <hotelUrl>https://www.fourseasons.com/shenzhen/</hotelUrl>
     </hotel>
 </hotels>

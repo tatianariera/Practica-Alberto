@@ -3,8 +3,8 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f4f4f9;
-  color: #333;
+  background-image: url("imgs/wallpaper.jpg");
+  color: #f4f4f4;
 }
 
 a {
@@ -19,43 +19,25 @@ a:hover {
 .principal {
   width: 90%;
   max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 40px auto;
+  padding: 30px;
   box-sizing: border-box;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: #2c3e50;
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: 1.8rem;
-  color: #555;
-  margin-bottom: 15px;
-}
-
-#location {
-  width: 70%;
-  max-width: 600px;
-  padding: 12px;
-  font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 10px auto;
-  transition: box-shadow 0.2s ease-in-out;
-}
-
-#location:focus {
-  outline: none;
-  border-color: #3498db;
-  box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .hotels {
@@ -63,16 +45,16 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .hotel {
-  background-color: #f9f9f9;
-  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
   border-radius: 12px;
-  width: 300px;
+  width: 200px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -97,41 +79,43 @@ h2 {
 .hotelName {
   font-size: 1.4rem;
   color: #333;
-  text-align: center;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .hotelLocation {
   font-size: 1rem;
   color: #777;
-  text-align: center;
-  margin-bottom: 10px;
+  margin-top: 0;
 }
 
-.hotelAmenities {
+.hotelAmenities,
+.hotelRating {
   font-size: 0.9rem;
   color: #555;
   text-align: center;
-  margin-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .hotelPrice {
   color: #e74c3c;
   font-weight: bold;
   font-size: 1.2rem;
-  text-align: center;
+  margin-top: 5px;
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
+
+  
   #location {
     width: 90%;
   }
@@ -139,4 +123,8 @@ h2 {
   .hotel {
     width: 90%;
   }
+}
+
+.bolder {
+  font-weight: bolder;
 }

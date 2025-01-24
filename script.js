@@ -46,12 +46,12 @@ locationInput.addEventListener("input", () => {
     hotelDiv.innerHTML = `
       <h2 class="hotelName">${hotel.name}</h2>
       <p class="hotelLocation">${hotel.location}</p>
-      <p class="hotelAmenities">Extras: ${hotel.amenities}</p>
-      <p class="hotelRating">Rating: ${hotel.rating} ⭐</p>
+      <p class="hotelAmenities"><span class="bolder">Extras:</span> ${hotel.amenities}</p>
+      <p class="hotelRating"><span class="bolder">Rating:</span> ${hotel.rating} ⭐</p>
       <p class="hotelPrice">${hotel.price} USD/night</p>
       <img class="hotelImg" src="${hotel.img}" alt="Image of ${hotel.name}">
     `;
-
+ 
     hotelDiv.addEventListener("click", () => {
       window.open(hotel.url, "_blank");
     });
